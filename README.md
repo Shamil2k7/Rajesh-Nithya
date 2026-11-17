@@ -47,10 +47,8 @@ A premium, bespoke Indian wedding reception invitation website built with **Next
    - Couple signature with sacred Om symbol.
    - Continuous gold floral mandala ribbon tiling identically to the bottom third of the original invitation card.
 
-8. **Royal Traditional Indian Music Player & Floating Location**
-   - **Wedding Song ("Mast Magan")**: Features the romantic melody of **"Mast Magan"** (*2 States*) with acoustic strings and flute lead playing from [`public/audio/wedding-song.mp3`](file:///d:/Mini_Project/Wedding_invitaion2/public/audio/wedding-song.mp3). You can drop any custom wedding MP3 of your choice into this location anytime.
+8. **Floating Location Navigation & Controls**
    - **Floating Location Button**: Positioned at the bottom-right (`fixed bottom-6 right-6`), providing quick one-touch access to the venue details and Google Maps directions.
-   - **Relocated Audio Player**: Moved to the top-right (`fixed top-5 right-5`), providing an unobtrusive royal gold pill to toggle the traditional ambient music on or off without blocking page actions.
    - **R&N Monogram Favicon**: Custom vector gold monogram on royal maroon background for both browser tabs and mobile bookmarking ([`public/favicon.svg`](file:///d:/Mini_Project/Wedding_invitaion2/public/favicon.svg)).
    - **Utility Controls**: Bottom-left controls to re-experience the envelope opening animation or smoothly return to the top.
 

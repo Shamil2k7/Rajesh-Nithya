@@ -8,17 +8,14 @@ import EventDetails from "../components/EventDetails";
 import Countdown from "../components/Countdown";
 import VenueSection from "../components/VenueSection";
 import ClosingSection from "../components/ClosingSection";
-import MusicPlayer from "../components/MusicPlayer";
 import FloatingLocation from "../components/FloatingLocation";
 import { Mail, ArrowUp } from "lucide-react";
 
 export default function Home() {
   const [isOpened, setIsOpened] = useState(false);
-  const [isMusicAutoTriggered, setIsMusicAutoTriggered] = useState(false);
 
   const handleOpened = () => {
     setIsOpened(true);
-    setIsMusicAutoTriggered(true);
     // Smooth scroll to hero
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -60,9 +57,6 @@ export default function Home() {
 
         {/* Closing Greetings & Repeating Mandala Border */}
         <ClosingSection />
-
-        {/* Ambient Royal Music Player (Relocated to top-right) */}
-        <MusicPlayer isAutoPlayRequested={isMusicAutoTriggered} />
 
         {/* Floating Location Button (Bottom Right) */}
         {isOpened && <FloatingLocation />}
