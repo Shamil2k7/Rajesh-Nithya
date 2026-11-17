@@ -47,7 +47,8 @@ A premium, bespoke Indian wedding reception invitation website built with **Next
    - Couple signature with sacred Om symbol.
    - Continuous gold floral mandala ribbon tiling identically to the bottom third of the original invitation card.
 
-8. **Floating Location Navigation & Controls**
+8. **Floating Location Navigation & Music Controls**
+   - **Background Wedding Audio**: Features the uploaded wedding song playing seamlessly in the background with unobtrusive controls (`Music On` / `Music Off`), completely without exposing any track name.
    - **Floating Location Button**: Positioned at the bottom-right (`fixed bottom-6 right-6`), providing quick one-touch access to the venue details and Google Maps directions.
    - **R&N Monogram Favicon**: Custom vector gold monogram on royal maroon background for both browser tabs and mobile bookmarking ([`public/favicon.svg`](file:///d:/Mini_Project/Wedding_invitaion2/public/favicon.svg)).
    - **Utility Controls**: Bottom-left controls to re-experience the envelope opening animation or smoothly return to the top.
