@@ -64,7 +64,7 @@ export default function MusicPlayer({ isAutoPlayRequested = false }) {
 
       <button
         onClick={toggleMusic}
-        aria-label={isPlaying ? "Mute traditional wedding shehnai song" : "Play traditional wedding shehnai song"}
+        aria-label={isPlaying ? "Mute Mast Magan romantic song" : "Play Mast Magan romantic song"}
         className="group relative flex items-center gap-2 px-3 py-2 sm:px-3.5 sm:py-2 rounded-full bg-[#3D0505]/95 hover:bg-[#570A0A] border border-[#D4A843]/70 shadow-[0_4px_16px_rgba(0,0,0,0.6)] backdrop-blur-md transition-all duration-300 hover:scale-105 active:scale-95"
       >
         {/* Pulsing Aura Indicator */}
@@ -86,7 +86,7 @@ export default function MusicPlayer({ isAutoPlayRequested = false }) {
         )}
 
         <span className="font-heading text-xs tracking-wider text-[#FFF1D0] font-medium uppercase pr-0.5 hidden sm:inline">
-          {isPlaying ? "Shehnai Song: On" : "Wedding Song: Off"}
+          {isPlaying ? "Mast Magan: On" : "Mast Magan: Off"}
         </span>
       </button>
     </div>
