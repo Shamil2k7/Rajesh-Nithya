@@ -18,7 +18,7 @@ export default function MusicPlayer({ isAutoPlayRequested = false }) {
         }
       }
     } catch (err) {
-      console.warn("Audio playback waiting for interaction:", err);
+      console.warn("Audio playback awaiting user interaction:", err);
     }
   };
 
@@ -46,17 +46,19 @@ export default function MusicPlayer({ isAutoPlayRequested = false }) {
 
   return (
     <div className="fixed top-5 right-5 z-40 flex items-center gap-2">
-      {/* Audio element playing uploaded wedding track with zero song title exposure */}
+      {/* Audio element playing uploaded wedding track without showing song title */}
       <audio
         ref={audioRef}
-        src="/audio/wedding-song.m4a"
+        src="/audio/wedding-song.weba"
         preload="auto"
         loop
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       >
-        <source src="/audio/wedding-song.m4a" type="audio/mp4" />
+        <source src="/audio/wedding-song.weba" type="audio/webm" />
+        <source src="/audio/wedding-song.webm" type="audio/webm" />
         <source src="/audio/wedding-song.mp3" type="audio/mpeg" />
+        <source src="/audio/wedding-song.m4a" type="audio/mp4" />
       </audio>
 
       <button
@@ -82,7 +84,7 @@ export default function MusicPlayer({ isAutoPlayRequested = false }) {
           <VolumeX className="w-4 h-4 text-[#D4A843]/80 group-hover:text-[#F4D77A]" />
         )}
 
-        {/* Clean, generic music state with NO song name */}
+        {/* Clean generic label with NO song title */}
         <span className="font-heading text-xs tracking-wider text-[#FFF1D0] font-medium uppercase pr-0.5 hidden sm:inline">
           {isPlaying ? "Music On" : "Music Off"}
         </span>

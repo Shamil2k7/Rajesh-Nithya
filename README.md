@@ -47,10 +47,19 @@ A premium, bespoke Indian wedding reception invitation website built with **Next
    - Couple signature with sacred Om symbol.
    - Continuous gold floral mandala ribbon tiling identically to the bottom third of the original invitation card.
 
-8. **Floating Location Navigation & Music Controls**
-   - **Background Wedding Audio**: Features the uploaded wedding song playing seamlessly in the background with unobtrusive controls (`Music On` / `Music Off`), completely without exposing any track name.
+8. **Share via WhatsApp & Copy Link Section (Section 8)**
+   - Dedicated sharing section allowing guests to send the formatted invitation text directly to WhatsApp with 1 tap.
+   - One-click **"Copy Text"** and **"Copy Link"** buttons with visual clipboard confirmations.
+   - Pre-formatted with links for `https://www.weddinginvitelik.ink/rajesh-nithyar-reception` and `https://www.weddinginvitelik.ink/rajesh-nithya`.
+
+9. **Floating Location Navigation & Music Controls**
+   - **Background Wedding Audio**: Features the uploaded traditional Malayalam wedding song (*Kanchana peyyum kalyana melam*) playing in the background with clean controls (`Music On` / `Music Off`), completely without exposing any track name.
    - **Floating Location Button**: Positioned at the bottom-right (`fixed bottom-6 right-6`), providing quick one-touch access to the venue details and Google Maps directions.
    - **R&N Monogram Favicon**: Custom vector gold monogram on royal maroon background for both browser tabs and mobile bookmarking ([`public/favicon.svg`](file:///d:/Mini_Project/Wedding_invitaion2/public/favicon.svg)).
+   - **URL Routing Structure**:
+     - Base Root (`/`): Empty as requested.
+     - Reception Card: [`/rajesh-nithyar-reception`](file:///d:/Mini_Project/Wedding_invitaion2/app/rajesh-nithyar-reception/page.jsx)
+     - Ceremony Card: [`/rajesh-nithya`](file:///d:/Mini_Project/Wedding_invitaion2/app/rajesh-nithya/page.jsx)
    - **Utility Controls**: Bottom-left controls to re-experience the envelope opening animation or smoothly return to the top.
 
 ---
