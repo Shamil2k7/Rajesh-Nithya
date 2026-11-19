@@ -1,8 +1,10 @@
+import WeddingPage from "../components/WeddingPage";
+
 export const metadata = {
-  title: "Wedding Invitation",
+  title: "Rajesh Kumar & Nithya Suni - Wedding Reception Invitation",
+  description: "Together with their families, Rajesh Kumar E R and Nithya Suni cordially invite you to celebrate their wedding reception.",
 };
 
 export default function Home() {
-  // Base root is empty as requested
-  return <div className="min-h-screen bg-[#570A0A]" />;
+  return <WeddingPage />;
 }

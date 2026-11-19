@@ -37,11 +37,11 @@ export const metadata = {
   authors: [{ name: "Rajesh Kumar & Nithya Suni" }],
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico" },
+      { url: "/rajesh-nithyar-reception/favicon.svg", type: "image/svg+xml" },
+      { url: "/rajesh-nithyar-reception/favicon.ico" },
     ],
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    shortcut: "/rajesh-nithyar-reception/favicon.svg",
+    apple: "/rajesh-nithyar-reception/favicon.svg",
   },
   openGraph: {
     title: `${weddingData.groom.displayName} & ${weddingData.bride.displayName} | Wedding Reception`,

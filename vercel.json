@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/rajesh-nithyar-reception"
+    },
+    {
+      "source": "/reception-static/_next/:path*",
+      "destination": "/rajesh-nithyar-reception/_next/:path*"
+    },
+    {
+      "source": "/reception-static/:path*",
+      "destination": "/rajesh-nithyar-reception/:path*"
+    }
+  ]
+}

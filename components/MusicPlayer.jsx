@@ -44,21 +44,23 @@ export default function MusicPlayer({ isAutoPlayRequested = false }) {
     }
   }, [isAutoPlayRequested]);
 
+  const audioBasePath = "/rajesh-nithyar-reception/audio/wedding-song";
+
   return (
     <div className="fixed top-5 right-5 z-40 flex items-center gap-2">
       {/* Audio element playing uploaded wedding track without showing song title */}
       <audio
         ref={audioRef}
-        src="/audio/wedding-song.weba"
+        src={`${audioBasePath}.weba`}
         preload="auto"
         loop
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       >
-        <source src="/audio/wedding-song.weba" type="audio/webm" />
-        <source src="/audio/wedding-song.webm" type="audio/webm" />
-        <source src="/audio/wedding-song.mp3" type="audio/mpeg" />
-        <source src="/audio/wedding-song.m4a" type="audio/mp4" />
+        <source src={`${audioBasePath}.weba`} type="audio/webm" />
+        <source src={`${audioBasePath}.webm`} type="audio/webm" />
+        <source src={`${audioBasePath}.mp3`} type="audio/mpeg" />
+        <source src={`${audioBasePath}.m4a`} type="audio/mp4" />
       </audio>
 
       <button
