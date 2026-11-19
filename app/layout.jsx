@@ -1,27 +1,5 @@
-import { Great_Vibes, Cormorant_Garamond, Lora } from "next/font/google";
 import "./globals.css";
 import { weddingData } from "../data/weddingData";
-
-const greatVibes = Great_Vibes({
-  weight: ["400"],
-  subsets: ["latin"],
-  variable: "--font-great-vibes",
-  display: "swap",
-});
-
-const cormorantGaramond = Cormorant_Garamond({
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-cormorant",
-  display: "swap",
-});
-
-const lora = Lora({
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
-  variable: "--font-lora",
-  display: "swap",
-});
 
 export const viewport = {
   themeColor: "#570A0A",
@@ -53,7 +31,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${greatVibes.variable} ${cormorantGaramond.variable} ${lora.variable}`}>
+    <html lang="en">
       <body className="antialiased selection:bg-[#D4A843] selection:text-[#240202]">
         {children}
       </body>
